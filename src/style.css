@@ -1,0 +1,44 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.search-bar {
+  padding: 20px;
+}
+
+.book-card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.book-cover {
+  width: 100px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.book-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-title {
+  margin: 0;
+}
+
+.book-status-btn {
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.book-status-btn.read {
+  background-color: green;
+  color: white;
+}
